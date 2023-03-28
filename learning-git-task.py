@@ -30,3 +30,11 @@ print("Разом купую", number ,"товарів.")
 number = sum([len(v) for v in shopping_dict.values()])
 print("Разом купую", number ,"товарів.")
 
+#модуль3 завдання2
+#числа, які діляться на 5
+for i in range(1, 101):
+  if (i % 5) == 0:
+    print(i)
+#підносимо до 3ї степені
+num3 = [i**3 for i in range(1, 101) if (i % 5) == 0]
+print(num3)
